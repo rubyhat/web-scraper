@@ -2,7 +2,8 @@ require 'nokogiri'
 require 'httparty'
 require 'byebug'
 
-# Реализованно исключительно в образовательных целях.
+# Реализовано исключительно в образовательных целях.
+# 2020. https://github.com/rubyhat
 
 def scraper
   url = 'https://siteexample.kz/search/vacancy?L_is_autosearch=false&area=40&clusters=true&enable_snippets=true&page=0'
